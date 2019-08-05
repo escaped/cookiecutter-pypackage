@@ -1,0 +1,12 @@
+{
+  "author": "",
+  "author_email": "",
+  "github_username": "",
+  "project_name": "Python Package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "short_description": "Python Package Boilerplate",
+  "version": "0.1.0",
+  "python_version": "3.7",
+  "line_length": "89",
+  "uses_django": "y"
+}
