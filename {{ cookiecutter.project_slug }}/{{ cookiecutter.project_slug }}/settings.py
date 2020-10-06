@@ -92,7 +92,7 @@ CACHES = {'default': env.cache()}
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'de'
+LANGUAGE_CODE = 'en'
 TIME_ZONE = 'Europe/Berlin'
 
 USE_I18N = True
