@@ -8,7 +8,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://relatedworks.com/"><img src="https://avatars3.githubusercontent.com/u/318650?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexander Frenzel</b></sub></a><br /><a href="https://github.com/escaped/cookiecutter-pypackage/commits?author=escaped" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://relatedworks.com/"><img src="https://avatars3.githubusercontent.com/u/318650?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alexander Frenzel</b></sub></a><br /><a href="https://github.com/escaped/cookiecutter-pypackage/commits?author=escaped" title="Documentation">📖</a> <a href="https://github.com/escaped/cookiecutter-pypackage/commits?author=escaped" title="Code">💻</a></td>
   </tr>
 </table>
 
