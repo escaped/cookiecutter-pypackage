@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+* fixed file permissions, thanks @merwok
+
 ## [1.0.0] - 2020-10-06
 
 ### Added
