@@ -1,0 +1,24 @@
+{
+  "projectName": "cookiecutter-pypackage",
+  "projectOwner": "escaped",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "escaped",
+      "name": "Alexander Frenzel",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/318650?v=4",
+      "profile": "https://relatedworks.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
