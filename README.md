@@ -29,6 +29,8 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
 
   * Support for [Twelve-factor-Methodology] using [django-environ]
 
+* Simple pull request template with checklist
+
 ## Quickstart
 
 Get the latest version of [Cruft] (or [Cookiecutter])
