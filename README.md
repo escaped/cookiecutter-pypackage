@@ -12,6 +12,7 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
   * Test for [PEP8] compliance
   * Enforce the usage of [black]
   * Preconfigured [coveralls]
+  * [CodeQL]
 
 * Tests using [Pytest] including support for
 
