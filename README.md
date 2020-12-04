@@ -50,9 +50,22 @@ git add .
 git commit -m "feat: initial project structure"
 ```
 
-In order get automatic releases to [pypi] you need to add your pypi access token to the secrets github.
+### Publish releases to pypi
+
+In order get automatic releases to [pypi] you need to add your pypi access token to the secrets github (named `PYPI_TOKEN`).
 Instructions can be found here: [python.org](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#saving-credentials-on-github).
 
+### Autoupdate template
+
+This cookiecutter template comes with an auto update feature if the project was created using [cruft].
+A GitHub action automatically checks for updates and creates a pull request.
+
+It is required to add a [personal access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
+as github secret to the repository (named `AUTO_UPDATE_GITHUB_TOKEN`).
+While creating the access token, the following permissions have to be granted
+
+* repo
+* workflow
 
 [Conventional-Commits]: http://conventionalcommits.org/
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
