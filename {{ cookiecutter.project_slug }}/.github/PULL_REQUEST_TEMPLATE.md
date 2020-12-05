@@ -1,6 +1,6 @@
 ## Description
 
-Please include a summary about the proposed changes.
+Please include a summary of the proposed changes.
 
 Fixes #(issue)
 
@@ -8,6 +8,6 @@ Fixes #(issue)
 
 - [ ] Tests covering the new functionality have been added
 - [ ] Code builds clean without any errors or warnings
-- [ ] Documention has been updated
+- [ ] Documentation has been updated
 - [ ] Changes have been added to the `CHANGELOG.md`
 - [ ] You added yourself to the `CONTRIBUTORS.md`
