@@ -48,24 +48,19 @@ jobs:
         run: tox
         env:
           PLATFORM: ${{ matrix.platform }}
-      - name: coveralls
-        run: coveralls
-        env:
-          COVERALLS_PARALLEL: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Coveralls
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
 
-  coveralls:
+  coveralls_finish:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Python 
-        uses: actions/setup-python@v2
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install coveralls
-      - name: coveralls
-        run: coveralls --finish
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Coveralls Finished
+        uses: AndreMiras/coveralls-python-action@develop
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel-finished: true
 {% endraw %}
