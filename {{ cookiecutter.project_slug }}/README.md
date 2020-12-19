@@ -11,8 +11,12 @@
 ## Requirements
 
 * Python 3.6.1 or newer
-* [poetry](https://poetry.eustance.io/) 1.1 or newer
 
+## Installation
+
+```sh
+pip install {{ cookiecutter.project_name}}
+```
 
 ## Development
 
@@ -49,4 +53,3 @@ cruft update
 ```
 
 in the root of this repository.
-
