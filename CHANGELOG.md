@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * added pull request template
 * added auto sync project struture
 * added [flake8-bugbear](https://pypi.org/project/flake8-bugbear/)
+* added [autoflake8](https://pypi.org/project/autoflake/)
 
 ### Fixed
 

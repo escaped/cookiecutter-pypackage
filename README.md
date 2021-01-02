@@ -20,7 +20,8 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
 
 * [pre-commit] hook to run
 
-  * [flake8], [flake8-bugbear]
+  * [flake8], [flake8-bugbear],
+  * [autoflake] (removes unused imports and variables),
   * [isort],
   * [mypy] and
   * [black]
@@ -67,6 +68,7 @@ While creating the access token, the following permissions have to be granted
 * repo
 * workflow
 
+[autoflake]: https://pypi.org/project/autoflake/
 [Conventional-Commits]: http://conventionalcommits.org/
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
 [Cruft]: https://github.com/cruft/cruft
