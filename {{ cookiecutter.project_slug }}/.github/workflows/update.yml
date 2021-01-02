@@ -14,10 +14,12 @@ jobs:
           python-version: 3.8.5
 
       - name: Install dependencies
-        run: pip install cruft jello
+        run: pip install cruft poetry jello
 
       - name: Update project structure
-        run: cruft update -y
+        run: |
+          cruft update -y
+          poetry lock --no-update  # add new dependencies
 
       - name: Get new template version
         # extract new cooiecutter template version

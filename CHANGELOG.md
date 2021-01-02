@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * added [flake8-bugbear](https://pypi.org/project/flake8-bugbear/)
 * added [autoflake8](https://pypi.org/project/autoflake/)
 
+### Changed
+
+* automatically add new dependencies on template update
+
 ### Fixed
 
 * fixed file permissions, thanks @merwok
