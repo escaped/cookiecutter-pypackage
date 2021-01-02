@@ -20,7 +20,7 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
 
 * [pre-commit] hook to run
 
-  * [flake8],
+  * [flake8], [flake8-bugbear]
   * [isort],
   * [mypy] and
   * [black]
@@ -81,6 +81,7 @@ While creating the access token, the following permissions have to be granted
 [coveralls]: https://coveralls.io/
 [django-environ]: https://github.com/joke2k/django-environ
 [flake8]: http://flake8.pycqa.org/en/latest/
+[flake8-bugbear]: https://pypi.org/project/flake8-bugbear/
 [isort]: https://github.com/timothycrosley/isort
 [mypy]: http://mypy-lang.org/
 [pip]: https://pip.pypa.io/en/stable/
