@@ -53,7 +53,7 @@ git commit -m "feat: initial project structure"
 
 ### Publish releases to pypi
 
-In order get automatic releases to [pypi] you need to add your pypi access token to the secrets github (named `PYPI_TOKEN`).
+In order get automatic releases to [pypi] you need to add your pypi access token to the github secrets (named `PYPI_TOKEN`).
 Instructions can be found here: [python.org](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#saving-credentials-on-github).
 
 ### Autoupdate template
@@ -88,5 +88,6 @@ While creating the access token, the following permissions have to be granted
 [mypy]: http://mypy-lang.org/
 [pip]: https://pip.pypa.io/en/stable/
 [pipx]: https://github.com/pipxproject/pipx
+[pre-commit]: https://pre-commit.com/
 [pytest-mock]: https://github.com/pytest-dev/pytest-mock/
 [pypi]: https://pypi.org/
