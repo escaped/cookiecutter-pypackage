@@ -20,7 +20,8 @@ jobs:
         run: |
           cruft update -y
           poetry lock --no-update  # add new dependencies
-          poetry run pre-commit run -a
+          poetry install
+          poetry run pre-commit run -a || true  # we have to fix other issue manually
 
       - name: Get new template version
         # extract new cooiecutter template version
