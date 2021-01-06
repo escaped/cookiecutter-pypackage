@@ -8,6 +8,17 @@ on:
       - main
 {% raw %}
 jobs:
+  lint_cruft:
+    name: Check if automatic project update was successful
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Fail if .rej files exist as structure update was not successful
+        run: test -z "$(find . -iname '*.rej')"
+
   lint:
     name: Lint
     runs-on: ubuntu-latest
