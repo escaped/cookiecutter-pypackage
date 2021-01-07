@@ -21,6 +21,7 @@ jobs:
 
   lint:
     name: Lint
+    needs: [lint_cruft]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -41,6 +42,7 @@ jobs:
 
   test:
     name: Test
+    needs: [lint_cruft]
     runs-on: ${{ matrix.platform }}
     strategy:
       max-parallel: 4
