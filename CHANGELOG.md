@@ -12,8 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * added CONTRIBUTORS.md
 * added pull request template
 * added auto sync project struture
-* added [flake8-bugbear](https://pypi.org/project/flake8-bugbear/)
 * added [autoflake8](https://pypi.org/project/autoflake/)
+* added [flake8-bugbear](https://pypi.org/project/flake8-bugbear/)
+* added [flake8-builtins](https://pypi.org/project/flake8-builtins/)
+* added [flake8-comprehensions](https://pypi.org/project/flake8-comprehensions/)
+* added [flake8-debugger](https://pypi.org/project/flake8-debugger/)
+* added [pep8-naming](https://pypi.org/project/pep8-naming/)
 * added support for python 3.9
 
 ### Changed

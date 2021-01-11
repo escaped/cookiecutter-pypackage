@@ -20,7 +20,7 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
 
 * [pre-commit] hook to run
 
-  * [flake8], [flake8-bugbear],
+  * [flake8], [flake8-bugbear], [flake8-builtins], [flake8-debugger], [pep8-naming], [flake8-comprehensions]
   * [autoflake] (removes unused imports and variables),
   * [isort],
   * [mypy] and
@@ -84,8 +84,12 @@ While creating the access token, the following permissions have to be granted
 [django-environ]: https://github.com/joke2k/django-environ
 [flake8]: http://flake8.pycqa.org/en/latest/
 [flake8-bugbear]: https://pypi.org/project/flake8-bugbear/
+[flake8-builtins]: https://pypi.org/project/flake8-builtins/
+[flake8-comprehensions]: https://pypi.org/project/flake8-comprehensions/
+[flake8-debugger: https://pypi.org/project/flake8-debugger/
 [isort]: https://github.com/timothycrosley/isort
 [mypy]: http://mypy-lang.org/
+[pep8-naming]: https://pypi.org/project/pep8-naming/
 [pip]: https://pip.pypa.io/en/stable/
 [pipx]: https://github.com/pipxproject/pipx
 [pre-commit]: https://pre-commit.com/
