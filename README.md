@@ -18,13 +18,18 @@ A Modern [Cookiecutter] template for Python packages and applications using [Poe
   * [pytest-mock] for mocking
   * code coverage using [coverage.py]
 
-* [pre-commit] hook to run
+* [pre-commit] hook to automatically run
 
-  * [flake8], [flake8-bugbear], [flake8-builtins], [flake8-debugger], [pep8-naming], [flake8-comprehensions]
-  * [autoflake] (removes unused imports and variables),
-  * [isort],
-  * [mypy] and
-  * [black]
+  * [autoflake] - automatically removes unused imports and variables,
+  * [isort] - automatically sorts imports alphabetically, and automatically separated into sections and by type,
+  * [black] - automatically formats your code,
+  * [flake8] - checks code against code style (PEP8), programming errors and complexity,
+    * [flake8-bugbear] - finds likely bugs and design problems in your program,
+    * [flake8-builtins] - Checks for python builtins being used as variables or parameters,
+    * [flake8-debugger] - Checks for `pdb` statements,
+    * [pep8-naming] - Checks code against PEP 8 naming conventions,
+    * [flake8-comprehensions] - helps you write better list/set/dict comprehensions,
+  * [mypy] - static type checker,
 
 * (optional) Preconfigured for [Django] applications
 
