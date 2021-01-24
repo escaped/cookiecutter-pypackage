@@ -1,6 +1,6 @@
 # Cookiecutter PyPackage
 
-A Modern [Cookiecutter] template for Python packages and applications using [Poetry].
+A modern opinionated [Cookiecutter] template for Python packages and applications using [Poetry].
 
 ## Features
 
