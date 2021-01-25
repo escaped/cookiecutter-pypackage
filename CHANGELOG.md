@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * added [flake8-debugger](https://pypi.org/project/flake8-debugger/)
 * added [pep8-naming](https://pypi.org/project/pep8-naming/)
 * added support for python 3.9
+* added [pdbpp](https://github.com/pdbpp/pdbpp) and [better-exceptions](https://github.com/qix-/better-exceptions)
 
 ### Changed
 

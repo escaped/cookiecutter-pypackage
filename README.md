@@ -31,6 +31,10 @@ A modern opinionated [Cookiecutter] template for Python packages and application
     * [flake8-comprehensions] - helps you write better list/set/dict comprehensions,
   * [mypy] - static type checker,
 
+* Debugging tools
+  * [pdbpp] - better debugger,
+  * [better_exceptions] - Pretty and more helpful exceptions in Python, automatically
+
 * (optional) Preconfigured for [Django] applications
 
   * Support for [Twelve-factor-Methodology] using [django-environ]
@@ -74,29 +78,31 @@ While creating the access token, the following permissions have to be granted
 * workflow
 
 [autoflake]: https://pypi.org/project/autoflake/
+[better-exceptions]: https://github.com/qix-/better-exceptions
+[black]: https://black.readthedocs.io/en/stable/
 [Conventional-Commits]: http://conventionalcommits.org/
 [Cookiecutter]: https://github.com/audreyr/cookiecutter
-[Cruft]: https://github.com/cruft/cruft
-[Django]: https://www.djangoproject.com/
-[PEP8]: https://www.python.org/dev/peps/pep-0008/
-[Poetry]: https://poetry.eustace.io/
-[Pytest]: https://docs.pytest.org/en/latest/
-[Tox]: http://testrun.org/tox/
-[Twelve-factor-Methodology]: https://www.12factor.net/
-[black]: https://black.readthedocs.io/en/stable/
 [coverage.py]: https://coverage.readthedocs.io/
 [coveralls]: https://coveralls.io/
+[Cruft]: https://github.com/cruft/cruft
 [django-environ]: https://github.com/joke2k/django-environ
-[flake8]: http://flake8.pycqa.org/en/latest/
+[Django]: https://www.djangoproject.com/
 [flake8-bugbear]: https://pypi.org/project/flake8-bugbear/
 [flake8-builtins]: https://pypi.org/project/flake8-builtins/
 [flake8-comprehensions]: https://pypi.org/project/flake8-comprehensions/
 [flake8-debugger]: https://pypi.org/project/flake8-debugger/
+[flake8]: http://flake8.pycqa.org/en/latest/
 [isort]: https://github.com/timothycrosley/isort
 [mypy]: http://mypy-lang.org/
+[pdbpp]: https://github.com/pdbpp/pdbpp
+[PEP8]: https://www.python.org/dev/peps/pep-0008/
 [pep8-naming]: https://pypi.org/project/pep8-naming/
 [pip]: https://pip.pypa.io/en/stable/
 [pipx]: https://github.com/pipxproject/pipx
+[Poetry]: https://poetry.eustace.io/
 [pre-commit]: https://pre-commit.com/
-[pytest-mock]: https://github.com/pytest-dev/pytest-mock/
 [pypi]: https://pypi.org/
+[Pytest]: https://docs.pytest.org/en/latest/
+[pytest-mock]: https://github.com/pytest-dev/pytest-mock/
+[Tox]: http://testrun.org/tox/
+[Twelve-factor-Methodology]: https://www.12factor.net/
